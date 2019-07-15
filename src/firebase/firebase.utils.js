@@ -3,13 +3,13 @@ import 'firebase/firestore';
 import 'firebase/auth';
 
 const config = {
-    apiKey: 'AIzaSyA8V0b985TZCvwEWBIT_xmoctvQAR536qI',
-    authDomain: 'crown-db-5533a.firebaseapp.com',
-    databaseURL: 'https://crown-db-5533a.firebaseio.com',
-    projectId: 'crown-db-5533a',
+    apiKey: process.env.REACT_APP_FIRBASE_API_KEY,
+    authDomain: process.env.REACT_APP_FIREBASE_AUTHDMAIN,
+    databaseURL: process.env.REACT_APP_FIREBASE_DATABASE_URL,
+    projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
     storageBucket: '',
-    messagingSenderId: '676981850362',
-    appId: '1:676981850362:web:cf89647770526698'
+    messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
+    appId: process.env.REACT_APP_FIREBASE_APP_ID
 };
 
 export const createUserProfileDocument = async (userAuth, additionalData) => {
