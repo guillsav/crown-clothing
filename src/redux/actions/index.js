@@ -3,3 +3,4 @@ export { cartActionTypes } from './cart/cart.types';
 
 export { setCurrentUser } from './user/user.actions';
 export { toggleHiddenCart } from './cart/cart.actions';
+export { addItem } from './cart/cart.actions';
