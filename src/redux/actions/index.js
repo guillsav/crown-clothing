@@ -1,3 +1,3 @@
-export { SET_CURRENT_USER } from './types';
+export { userActionTypes } from './user.types';
 
 export { setCurrentUser } from './user.actions';
