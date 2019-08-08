@@ -9,8 +9,11 @@
     .logo-container {
         height: 100%;
         width: 70px;
-        padding: 25px;
         padding-left: 0;
+
+        .logo {
+            height: 100%;
+        }
     }
 
     .options {

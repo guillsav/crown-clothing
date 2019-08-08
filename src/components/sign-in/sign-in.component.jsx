@@ -64,9 +64,7 @@ class SignIn extends React.Component {
                             sign in wih Google
                         </CustomButton>
                     </div>
-                    <Link className="navigate" to="/signup">
-                        Don't have an account?
-                    </Link>
+                    <Link to="/signup">Don't have an account?</Link>
                 </form>
             </div>
         );
